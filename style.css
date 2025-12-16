@@ -1,0 +1,42 @@
+#div_button
+{
+    display: block;
+    text-align: center;
+}
+
+.button
+{
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:20px 46px;
+	text-decoration:none;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#label_rng
+{
+    display: block;
+    font-size: 10em;
+    text-align: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.labels
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: wavy;
+}
